@@ -1,3 +1,4 @@
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 # To-Do App ✅
 
 A simple and responsive To-Do app built with React.  
