@@ -1,0 +1,45 @@
+body {
+    background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    max-width: 500px;
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+#taskList li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: transform 0.2s ease;
+}
+
+#taskList li:hover {
+    transform: scale(1.02);
+}
+
+#taskList li.completed span {
+    text-decoration: line-through;
+    color: gray;
+    opacity: 0.6;
+}
+
+button.btn-danger {
+    transition: background-color 0.3s ease;
+}
+
+button.btn-danger:hover {
+    background-color: #dc3545;
+}
+
+span {
+    flex-grow: 1;
+    cursor: pointer;
+}
