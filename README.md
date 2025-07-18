@@ -1,5 +1,3 @@
-# to-do-app
-React kullanarak yaptığım görev takip uygulaması/My task tracking app using React 
 # To-Do App ✅
 
 A simple and responsive To-Do app built with React.  
